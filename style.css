@@ -1,0 +1,88 @@
+:root {
+    --main-color: #9F5C44;
+    --second-color: #64342C;
+    --third-color: #644C2C;
+    --fourth-color: #392414;
+    --fifth-color: #1F232C;
+    --sixth-color:white;
+    --black: #13131a;
+    --bg: #000000;
+    --border: .1rem solid rgba(255,255,255,.3);
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--sixth-color);
+    margin-left: 700px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--sixth-color);
+}
+
+
+/* Add this CSS to your external stylesheet or within a <style> tag in your HTML document */
+#checkout-form {
+    color: white; /* Set text color to white for the entire form */
+}
+
+#checkout-form label {
+    color: white; /* Set text color to white for labels */
+}
+
+#checkout-form input[type="text"],
+#checkout-form input[type="tel"],
+#checkout-form input[type="email"],
+#checkout-form textarea {
+    color: white; /* Set text color to white for input and textarea elements */
+}
+
+/* Additional styles for input and textarea elements if needed */
+#checkout-form input[type="text"],
+#checkout-form input[type="tel"],
+#checkout-form input[type="email"],
+#checkout-form textarea {
+    background-color: rgba(255, 255, 255, 0.1); /* Example background color with transparency */
+    border: 1px solid white; /* Example border color */
+    padding: 8px; /* Example padding */
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:60px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+    margin-left: 10px;
+}
+.navbar a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* Add this CSS to your external stylesheet or within a <style> tag in your HTML document */
+#cart-items-list {
+    color: white; /* Set text color to white for the entire list */
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 2rem; /* Adjust the padding to decrease the button size */
+    font-size: 1.4rem; /* Adjust the font size to decrease the button text size */
+    color: #fff;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover {
+    letter-spacing: .1rem;
+    background-color: var(--main-color);
+}

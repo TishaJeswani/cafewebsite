@@ -1,0 +1,101 @@
+<?php include('process_contact_form') ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{
+        background-color:#9F5C44;
+        color: white;
+    }
+    .image{
+        width: 100%;
+    }
+    h1{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .container p{
+        margin-left: 200px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    input,button{
+        margin-left: 200px;
+        display: block;
+        width: 700px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    footer{
+        width: 100%;
+        margin-top: 0px;
+        height: 180px;
+        background-color: black;
+        color: white;
+        text-align: center;
+    
+    }
+    .navbar {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height:60px;
+    }
+    
+    .navbar a{
+        text-decoration: none;
+        color:white;
+        margin-left: 40px;
+    }
+    .navbar a:hover{
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    </style>
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="aboutus.html">About</a>
+        <a href="Products.html">Products</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div class="container">
+        <h1>Contact</h1>
+        <p>Find us at some address at some place or call us at 05050515-122330
+            <br>
+            <br>
+            FYI!. We understand your needs and we will serve you with best coffee to satisfy the biggerst 
+            <br>
+            criteria of them all, both look and taste.
+            <br>
+            <br>
+            <br>
+            Reserve a table, ask for today's special or just send us a message:</p>
+           
+            <div class="contact-us">
+                <form action="save.php" method="post">
+                    <input type="text" name="fname"   class="form-control" placeholder="Enter First Name"> <br>
+                    <input type="text" name="lname"  class="form-control" placeholder="Enter last Name"> <br>
+                    <input type="email" name="email"  class="form-control" placeholder="Enter Email"> <br>
+                    <input type="text" name="mobile"  class="form-control" placeholder="Enter Mobile Number"> <br>
+                    <input type="submit" class="form-control submit" value="submit" >
+                </form>
+            </div>
+    </div>
+    <footer>
+        <h3>Follow Us</h3>
+        <p class="fa fa-facebook"></p>
+        <p class="fa fa-instagram"></p>
+        <p class="fa fa-twitter"></p>
+        <p class="fa fa-linkedin"></p>
+    </footer>
+</body>
+</html>
